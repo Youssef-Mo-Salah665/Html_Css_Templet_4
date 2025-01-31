@@ -1062,6 +1062,11 @@ ul {
     top: 50%;
     transform: translateY(-50%);
 }
+@media (max-width:767px) {
+    .friends-page .friend .info a {
+        font-size: 10px;
+    }
+}
 /* End Friends Page */
 /* Start Files Page */
 .files-page {
